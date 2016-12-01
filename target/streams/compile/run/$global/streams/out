@@ -1,0 +1,11 @@
+[0m[[0minfo[0m] [0mRunning cellular_automata.CellularAutomaton [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/xetql/projects/scala/CellularAutomaton/target/scala-2.12/classes[0m
+[0m[[0mdebug[0m] [0m	/home/xetql/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/xetql/.ivy2/cache/org.scalaz/scalaz-core_2.12/bundles/scalaz-core_2.12-7.2.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/xetql/.ivy2/cache/org.scalaz/scalaz-effect_2.12/bundles/scalaz-effect_2.12-7.2.7.jar[0m
+[0m[[0mdebug[0m] [0m	/home/xetql/.ivy2/cache/org.scala-lang.modules/scala-swing_2.11/bundles/scala-swing_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0mDisposing 1 top-level windows...[0m
+[0m[[0mdebug[0m] [0mWaiting 2 s to let AWT thread exit.[0m
