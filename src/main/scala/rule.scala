@@ -10,6 +10,7 @@ object rule{
         def rule: (List[State[T]], State[T]) => State[T]
         val onSphere: Boolean
     }
+
     case class GameOfLifeRule() extends CellularAutomatonRule[DeadOrAlive] {
         val onSphere = true
         override def rule: (List[State[DeadOrAlive]], State[DeadOrAlive]) => State[DeadOrAlive] =
@@ -21,6 +22,20 @@ object rule{
                 case _                              => State(Dead())
             }
     }
+
+    case class ProbabilisticGameOfLifeRule(p:Double) extends CellularAutomatonRule[DeadOrAlive] {
+        val onSphere = true
+        lazy val rand = scala.util.Random
+        override def rule: (List[State[DeadOrAlive]], State[DeadOrAlive]) => State[DeadOrAlive] =
+            (neighbors, target) => (neighbors.count(_.v.isInstanceOf[Alive]), target) match {
+                case (n, t) if n  < 2               => State(Dead())
+                case (n, t) if n  > 3               => State(Dead())
+                case (n, t) if n == 3               => State(Alive())
+                case (n, t@State(Alive())) if n == 2=> State(Alive())
+                case _                              => if (rand.nextDouble() < p) State(Alive()) else State(Dead())
+            }
+    }
+
     case class DayAndNightRule() extends CellularAutomatonRule[DeadOrAlive] {
         val onSphere = true
         override def rule: (List[State[DeadOrAlive]], State[DeadOrAlive]) => State[DeadOrAlive] =
@@ -30,6 +45,7 @@ object rule{
                 case (_,t)                          => State(Dead())
             }
     }
+
     case class ForestFireRule() extends CellularAutomatonRule[Forest] {
         val onSphere = false
         override def rule: (List[State[Forest]], State[Forest]) => State[Forest] =

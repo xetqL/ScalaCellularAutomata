@@ -26,6 +26,6 @@ object CellularAutomaton extends App {
         result
     }
 
-    time{  start[Forest](arrFF, ForestFireRule(), MooreNeighborhood())(1000)(jcFF) }
-    time{  start2[DeadOrAlive](arrGOL,jcGOL, 1000)( GameOfLifeRule().rule, true)(MooreNeighborhood().getNeighbors) }
+    //time{  start[Forest](arrFF, ForestFireRule(), MooreNeighborhood())(1000)(jcFF) }
+    time{  start2[DeadOrAlive](arrGOL, jcGOL, 1000)( ProbabilisticGameOfLifeRule(0.005).rule, true)(MooreNeighborhood().getNeighbors) }
 }

@@ -39,8 +39,8 @@
       <file leaf-file-name="CellularAutomaton.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/CellularAutomaton.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="351">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#27#59#0" expanded="true" />
                 <element signature="e#785#1024#0" expanded="false" />
@@ -52,13 +52,10 @@
       <file leaf-file-name="simulation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/simulation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="378">
+              <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
               <folding>
                 <element signature="e#27#63#0" expanded="true" />
-                <element signature="e#383#1813#0" expanded="false" />
-                <element signature="e#624#1159#0" expanded="false" />
-                <element signature="e#1819#3374#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -80,11 +77,10 @@
       <file leaf-file-name="rule.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/rule.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="204">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding>
-                <element signature="e#329#917#0" expanded="false" />
-                <element signature="e#1515#2057#0" expanded="false" />
+                <element signature="e#2293#2835#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -189,10 +185,10 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/Population.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/state.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/rule.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Neighborhood.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/GuiProgramOne.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/simulation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/rule.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/CellularAutomaton.scala" />
       </list>
     </option>
@@ -852,17 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/rule.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding>
-            <element signature="e#329#917#0" expanded="false" />
-            <element signature="e#1515#2057#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/neighborhood.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -870,19 +855,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#613#874#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/simulation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-          <folding>
-            <element signature="e#27#63#0" expanded="true" />
-            <element signature="e#383#1813#0" expanded="false" />
-            <element signature="e#624#1159#0" expanded="false" />
-            <element signature="e#1819#3374#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,10 +870,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/simulation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="e#27#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/rule.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="e#2293#2835#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/CellularAutomaton.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="351">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#27#59#0" expanded="true" />
             <element signature="e#785#1024#0" expanded="false" />

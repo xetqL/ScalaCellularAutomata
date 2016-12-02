@@ -34,9 +34,10 @@ object simulation {
         })) else ParSeq.tabulate(pop.size, pop(0).size)((x, y) =>
             fn(x,y).filter(i => isValidMatrixPosition(i._1, i._2, pop.size, pop(0).size))
         )
+        GUIHelper.showOnFrame(jc, "Cellular Automaton") //border effect
         @tailrec
         def rec(i:Int, currentPope: Population[State[T]]) : Population[State[T]] = {
-            //jc.setMatrix(currentPope)
+            jc.setMatrix(currentPope)
             if (i == max) currentPope
             else rec(i+1, simulateCellularAutomaton(currentPope, populationNeighbors))
         }
